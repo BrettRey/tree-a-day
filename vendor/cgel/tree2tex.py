@@ -95,7 +95,7 @@ def trees2tex(trees: Iterable[cgel.Tree]) -> str:
         #s = tree.draw()
         for k,v in tree.metadata.items():
             s += f'% # {k} = {v}\n'
-        s += tree.drawtex() + '\n'
+        s += tree.drawtex(punct=False) + '\n'  # tree-a-day: no punctuation in the image (Brett, 2026-10-30)
         #break # just print one tree
         i += 1
     s += FOOTER

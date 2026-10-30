@@ -29,7 +29,8 @@ The last sentence is the position of *Fusion of functions revisited* (lingbuzz/0
 - Ordinary-Head side: the validator warns once (AdjP as head of a Nom), because it checks CGEL's grammar.
 - *YOUR* is `Det: NP` with N_pro, as gold's *my*.
 
-## Rulings needed before posting
+## Rulings
 
-1. **"FILTHY": Adj or Adv.** Drawn as Adj modifying Adj, as gold's *pure white* (`ewt.cgel` line 1273). Language Log quotes the OED treating *filthy* in *filthy rich* as an adverb.
-2. **Format.** The pair with the caption above, or a second A/B poll like Halloween's.
+- **FILTHY is Adj** (Brett, 2026-10-30), modifying the Adj *COMFORTABLE*, as drawn. Nothing in CGEL rules out an AdjP modifier inside an AdjP; gold has one (*pure white*, `ewt.cgel` line 1273). CGEL's own habit is to treat such pairs as compounds (*icy-cold*, *red-hot*, p. 1658) or the first word as an adverb (*dead right*, p. 584), and the OED lists *filthy* in *filthy rich* as an adverb.
+- **The right parse is the ordinary Head tree (right)** (Brett, 2026-10-30: "ordinary head"): *your* [*filthy comfortable*], with the AdjP as ordinary head of the nominal and *filthy* an AdjP modifier. The fused modifier-head (left) is CGEL's analysis, but CGEL describes that construction ("special interpretations", abstract subtype like *the utterly impossible*) as "determined by the definite article – we couldn't even substitute a demonstrative" (p. 417), which *your* doesn't fit; and *Fusion of functions revisited* finds no evidence of form for the modifier function.
+- **Fusion pair, as scheduled** (Brett: "fusion"): the post shows both trees. The other parse, *Find [your filthy] comfortable* (object plus predicative complement, as in *I find your sofa comfortable*), is grammatically available. It's set aside on interpretation: the ad's layout groups FILTHY COMFORTABLE, the phrase follows *filthy rich*, and *your filthy* would need an understood head.

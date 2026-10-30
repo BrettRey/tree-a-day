@@ -21,7 +21,7 @@ header = tree2tex.HEADER.replace(r'\documentclass[tikz,border=12pt]{standalone}'
                                  r'\documentclass[border=12pt]{standalone}')
 # baseline on the leaves sets each picture's baseline at its leaf row, so trees of
 # different depths still line up their leaves
-draw = lambda t: t.drawtex().replace('tier=word,', 'tier=word, baseline,', 1)
+draw = lambda t: t.drawtex(punct=False).replace('tier=word,', 'tier=word, baseline,', 1)
 print(header + draw(trees[0]) + r'\hspace{3em}' + draw(trees[1]) + tree2tex.FOOTER)
 EOF
 (cd "$dir" && pdflatex -interaction=nonstopmode -halt-on-error "$stem.tex" > "$stem.build.log" 2>&1) \

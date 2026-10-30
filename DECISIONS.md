@@ -36,3 +36,15 @@
 2026-10-30 — Index letters start at x in each tree and go on in order (x, y, z), as in gold; a tree with one link uses x (Brett asked why Boyle had y). Brett approved the four Macbeth trees as drawn ("otherwise good. And the other trees too"), which includes Lockes as vocative and ordinary Head for "this".
 
 2026-10-30 — Captions: not didactic. Brett: "In General, I don't want to be didactic, and mostly I'll favour just \"Syntax tree for x\"". Default caption is "Syntax tree for “…”", with at most a short second line; the week's plain captions are in queue/CAPTIONS.md, and the explanatory drafts in each post.md are now notes for Brett, not post text.
+
+2026-10-30 — Week scheduled on X by Claude in Brett's Chrome as Daily Syntax Tree (Brett: "Schedule the posts in X's composer"): six posts at 9:00 AM Eastern (Brett chose the time), plain captions with no optional second lines (Brett: "Neither"), alt text from each post.md. 3 Nov is a quote of @Dictionarycom's announcement. Verified in X's scheduled list.
+
+2026-10-30 — Spring forward: *forward* and *back* are complements (Brett: "I take forward and back to be complements"), as drawn. Schwab: Brett takes *filthy* to be Adj; Claude noted CGEL p. 584 lists bare degree modifiers like *dead*, *real*, *mighty* as adverbs; Brett's call pending.
+
+2026-10-30 — Punctuation is dropped from every tree image and kept in the post text (Brett: "the punctuation should be dropped from all the trees but kept in the tweet text"). The renderer draws with punct=False; the .cgel keeps :p. Re-rendered the five punctuated queued trees (Fire burne, Lockes, Deny, Spring forward, gunpowder); posted trees stay as posted. Brett approved the gunpowder and Spring forward trees otherwise ("Those trees look good otherwise"), so the *why* gap and *ever* stay where drawn.
+
+2026-10-30 — Scheduled posts for 31 Oct (Fire, Lockes, Deny images), 1 Nov and 5 Nov edited on X with the punctuation-free images and their alt text re-entered; the scheduled list still shows six posts at 9:00 AM.
+
+2026-10-30 — Schwab (6 Nov): *filthy* is Adj (Brett), modifying the Adj *comfortable*; Claude withdrew its claim that CGEL disallows an AdjP modifier inside an AdjP (no source; gold has *pure white*). Friday stays the fusion pair (Brett: "fusion"); the *[your filthy] comfortable* parse is noted in post.md, not used.
+
+2026-10-30 — Schwab (6 Nov): the right parse is ordinary Head (Brett: "ordinary head, record it"): *your* [*filthy comfortable*], AdjP as ordinary head of the nominal, *filthy* an AdjP modifier. Consistent with Fusion of functions revisited (no evidence of form for the modifier function); CGEL's fused modifier-head type is described as taking only the definite article (p. 417), which *your* doesn't fit. The scheduled post (both trees) is unchanged.

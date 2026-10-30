@@ -17,3 +17,5 @@ Local changes, 2026-10-30, all in `cgel.py`:
   `before drawing tree={x+=...}` after packing, long branch diagonal). Helpers
   `_is_fused`, `_fusion_skipped_levels` and `_fusion_intermediates` factor out logic
   that upstream had inline.
+
+Local change, 2026-10-30, in `tree2tex.py`: `trees2tex` draws trees with `punct=False`, so punctuation stays in the `.cgel` source and in the post's text but not in the image.

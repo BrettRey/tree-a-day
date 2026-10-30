@@ -12,6 +12,8 @@ Checked 2026-10-30. X changes often and its help pages lag, so re-check before r
 
 - X Pro's help page documents scheduling posts with images or video, and says nothing about polls (help.x.com/en/using-x/advanced-xpro-features).
 - Web composer, 2026-10-30: with a poll attached, the Schedule button did nothing; with the poll removed, the schedule dialog opened. So polls can't be scheduled from the web. The phone app wasn't tested.
+- Quote posts with an image can be scheduled from the web: Repost → Quote, add the image and text, then Schedule (done for 3 Nov 2026, 2026-10-30). The Repost button opens a small menu (Repost / Quote); choosing Repost reposts at once.
+- Scheduled posts keep up to four images, each with its own alt text (up to 1,000 characters, "Add descriptions" under the images). Scheduled posts are listed at x.com/compose/post/unsent/scheduled.
 
 ## API (docs.x.com, fetched 2026-10-30)
 
@@ -23,4 +25,4 @@ Checked 2026-10-30. X changes often and its help pages lag, so re-check before r
 ## What follows for automation
 
 - A plain tree post (image, caption, no link) could be scheduled in X's composer or sent through the API for $0.015.
-- Image polls and quote-tweets have to be posted by hand: the API can do neither on a self-serve plan, and the web composer won't schedule polls.
+- Image polls have to be posted by hand: the API can't attach choice images and the web composer won't schedule polls. Quote-tweets can be scheduled in the web composer, though not sent through the self-serve API.

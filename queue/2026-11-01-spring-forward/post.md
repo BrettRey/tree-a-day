@@ -24,8 +24,8 @@ CGEL p. 614: "There are good grounds for putting words of this kind in the prepo
 ## Rulings
 
 - **Coordination** (Brett, 2026-10-30): two Clauses coordinated with no coordinator, as drawn (following `twitter.cgel` line 1501).
+- **Comp, not Mod**, for *forward* and *back* (Brett, 2026-10-30: "I take forward and back to be complements"), as drawn.
 
 Still open:
 
-1. **Comp or Mod for *forward*.** The draft follows gold's Comp for one-word directional PPs.
-2. **Source.** The 1971 *Congressional Record* (capital S, full stop) or NIST (lower case, which would make the first leaf *spring*).
+1. **Source.** The 1971 *Congressional Record* (capital S, full stop) or NIST (lower case, which would make the first leaf *spring*).
