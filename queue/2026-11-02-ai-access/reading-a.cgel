@@ -1,0 +1,33 @@
+# sent_id = 2026-11-02-ai-access-a
+# text = to give A.I. access to all of its 51 million citizens
+# sent = to give A.I. access to all of its 51 million citizens
+# source = Beth Simone Noveck, NYT opinion, 6 Oct 2026, as quoted in Mark Liberman, "An ominous syntactic ambiguity", Language Log, 7 Oct 2026, https://languagelog.ldc.upenn.edu/nll/?p=74365: "...South Korea is securing contracts with multiple tech and telecom companies to give A.I. access to all of its 51 million citizens."
+(Clause
+    :Head (VP
+        :Marker (Sdr :t "to")
+        :Head (VP
+            :Head (V :t "give" :xpos "VB")
+            :Obj_ind (NP
+                :Head (Nom
+                    :Head (N :t "A.I." :l "AI")))
+            :Obj_dir (NP
+                :Head (Nom
+                    :Head (N :t "access")
+                    :Comp (PP
+                        :Head (P :t "to")
+                        :Obj (NP
+                            :Head (Nom
+                                :Head (DP
+                                    :Head (D :t "all"))
+                                :Comp (PP
+                                    :Head (P :t "of")
+                                    :Obj (NP
+                                        :Det (NP
+                                            :Head (Nom
+                                                :Head (N_pro :t "its" :l "it")))
+                                        :Head (Nom
+                                            :Mod (DP
+                                                :Head (D
+                                                    :Flat (D :t "51" :xpos "CD")
+                                                    :Flat (D :t "million" :xpos "CD")))
+                                            :Head (N :t "citizens" :l "citizen"))))))))))))

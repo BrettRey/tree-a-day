@@ -1,0 +1,15 @@
+# sent_id = 2026-11-01-spring-forward
+# text = Spring forward, fall back.
+# sent = Spring forward fall back
+# source = Rep. Craig Hosmer, 'Fiddling around with "God's time"', Congressional Record (bound edition), vol. 117, pt. 29, p. 38086 (House, 28 Oct 1971), printed as: once and for all abolish the trivia: "Spring forward, fall back." https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt29/pdf/GPO-CRECB-1971-pt29-3-2.pdf (PDF p. 54); also NIST, 'Daylight Saving Time (DST)', in lower case within parentheses: ("spring forward, fall back")
+(Coordination
+    :Coordinate (Clause
+        :Head (VP
+            :Head (V :t "Spring" :l "spring" :xpos "VB")
+            :Comp (PP
+                :Head (P :t "forward" :p ","))))
+    :Coordinate (Clause
+        :Head (VP
+            :Head (V :t "fall" :xpos "VB")
+            :Comp (PP
+                :Head (P :t "back" :p ".")))))

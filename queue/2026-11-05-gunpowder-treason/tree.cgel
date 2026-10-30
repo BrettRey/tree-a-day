@@ -1,0 +1,37 @@
+# sent_id = 2026-11-05-gunpowder-treason
+# text = I know no reason Why gunpowder treason Should ever be forgot.
+# sent = I know no reason Why gunpowder treason Should ever be forgot --
+# source = J. O. Halliwell, The Nursery Rhymes of England, 5th edn (London and New York: Frederick Warne, 1886), First Class (Historical), no. XV, p. 7; Project Gutenberg eBook #32415, plain-text lines 415-422, "I know no reason / Why gunpowder treason / Should ever be forgot."
+(Clause
+    :Subj (NP
+        :Head (Nom
+            :Head (N_pro :t "I")))
+    :Head (VP
+        :Head (V :t "know" :xpos "VBP")
+        :Obj (NP
+            :Det (DP
+                :Head (D :t "no"))
+            :Head (Nom
+                :Head (N :t "reason")
+                :Mod (Clause_rel
+                    :Prenucleus (x / AdvP
+                        :Head (Adv :t "Why"))
+                    :Head (Clause_rel
+                        :Subj (NP
+                            :Head (Nom
+                                :Mod (Nom
+                                    :Head (N :t "gunpowder"))
+                                :Head (N :t "treason")))
+                        :Head (VP
+                            :Head (VP
+                                :Head (V_aux :t "Should" :l "should" :xpos "MD")
+                                :Comp (Clause
+                                    :Head (VP
+                                        :Mod (AdvP
+                                            :Head (Adv :t "ever"))
+                                        :Head (VP
+                                            :Head (V_aux :t "be" :xpos "VB")
+                                            :Comp (Clause
+                                                :Head (VP
+                                                    :Head (V :t "forgot" :l "forget" :xpos "VBN" :p ".")))))))
+                            :Mod (x / GAP))))))))

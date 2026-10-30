@@ -1,0 +1,18 @@
+# sent_id = 2026-11-03-maxxing
+# text = Everyone is maxxing something
+# sent = Everyone is maxxing something
+# source = Dictionary.com, "Dictionary.com's 2026 Word of the Year Is…", 25 Oct 2026, https://www.dictionary.com/e/word-of-the-year-2026/, quoting @rosie.p.chronicles: "Everyone is maxxing something…what's yours? 👀"
+(Clause
+    :Subj (NP
+        :Head (Nom
+            :Head (DP
+                :Head (D :t "Everyone" :l "everyone"))))
+    :Head (VP
+        :Head (V_aux :t "is" :l "be" :xpos "VBZ")
+        :Comp (Clause
+            :Head (VP
+                :Head (V :t "maxxing" :l "maxx" :xpos "VBG")
+                :Obj (NP
+                    :Head (Nom
+                        :Head (DP
+                            :Head (D :t "something"))))))))

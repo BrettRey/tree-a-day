@@ -26,3 +26,13 @@
 2026-10-30 — Selection: no textbook chestnuts. Brett: "don't do obvious things like the horse raced past the barn fell." Dropped from the week: The horse raced past the barn fell, Colorless green ideas sleep furiously, and the Buffalo sentence; their slots (2, 4 and 6 Nov) get fresh sentences.
 
 2026-10-30 — Repository made public on GitHub as BrettRey/tree-a-day (Brett: "make it public on GitHub"), superseding the local-only entry above. Before the first push, the unpublished CGELBank benchmark figures were generalized out of CLAUDE.md and DECISIONS.md and the single commit amended, so they never enter public history (Brett chose "Generalize, then push"). Unreviewed week drafts in queue/ are not committed.
+
+2026-10-30 — Week rulings (Brett): 31 Oct Folio text of the Macbeth refrain; 1 Nov two coordinated clauses; 2 Nov the NYT "give A.I. access" ambiguity; 4 Nov a live "too early to call" headline, drafted on the day; 5 Nov Halliwell's "I know no reason"; 6 Nov the Schwab "FIND YOUR FILTHY COMFORTABLE" ad. The 19th Amendment (3 Nov) is dropped. Brett: "I'm not American, for one thing, and there's already the results one." One post on the US election is enough.
+
+2026-10-30 — Fire burne (31 Oct): redrawn as vocatives plus imperatives, "probably imperative" with the subjunctive kept as the alternative, following an analysis Brett pasted (nearby "Boyle thou first", "Starres hide your fires" without a comma, bare singular Cauldron); its Folio citations checked in Gutenberg #1129.
+
+2026-10-30 — 31 Oct becomes one four-image post from Macbeth 4.1 (Brett: "a bunch of trees from that bit at once, including the subjunctive"): Boyle thou first, Fire burne, Open Lockes who euer knockes, and Deny me this And an eternall Curse fall on you.
+
+2026-10-30 — Index letters start at x in each tree and go on in order (x, y, z), as in gold; a tree with one link uses x (Brett asked why Boyle had y). Brett approved the four Macbeth trees as drawn ("otherwise good. And the other trees too"), which includes Lockes as vocative and ordinary Head for "this".
+
+2026-10-30 — Captions: not didactic. Brett: "In General, I don't want to be didactic, and mostly I'll favour just \"Syntax tree for x\"". Default caption is "Syntax tree for “…”", with at most a short second line; the week's plain captions are in queue/CAPTIONS.md, and the explanatory drafts in each post.md are now notes for Brett, not post text.

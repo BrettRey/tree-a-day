@@ -1,0 +1,19 @@
+# sent_id = 2026-10-31-lockes
+# text = Open Lockes, who euer knockes.
+# sent = Open Lockes who euer -- knockes
+# source = Shakespeare, Macbeth 4.1, First Folio text; Project Gutenberg eBook #1129, line 2150, "Open Lockes, who euer knockes."
+(Clause
+    :Head (VP
+        :Head (VP
+            :Head (V :t "Open" :l "open" :xpos "VB")
+            :Vocative (NP
+                :Head (Nom
+                    :Head (N :t "Lockes" :l "lock" :p ","))))
+        :Mod (Clause
+            :Prenucleus (x / NP
+                :Head (Nom
+                    :Head (N_pro :t "who euer" :l "whoever")))
+            :Head (Clause
+                :Subj (x / GAP)
+                :Head (VP
+                    :Head (V :t "knockes" :l "knock" :xpos "VBZ" :p "."))))))

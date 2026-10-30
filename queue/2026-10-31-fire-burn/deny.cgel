@@ -1,0 +1,32 @@
+# sent_id = 2026-10-31-deny
+# text = Deny me this, And an eternall Curse fall on you:
+# sent = Deny me this And an eternall Curse fall on you
+# source = Shakespeare, Macbeth 4.1, First Folio text; Project Gutenberg eBook #1129, lines 2253-2254 (Macbeth to the witches), "Deny me this, / And an eternall Curse fall on you: Let me know."
+(Coordination
+    :Coordinate (Clause
+        :Head (VP
+            :Head (V :t "Deny" :l "deny" :xpos "VB")
+            :Obj_ind (NP
+                :Head (Nom
+                    :Head (N_pro :t "me" :l "I")))
+            :Obj_dir (NP
+                :Head (Nom
+                    :Head (DP
+                        :Head (D :t "this" :p ","))))))
+    :Coordinate (Clause
+        :Marker (Coordinator :t "And" :l "and")
+        :Head (Clause
+            :Subj (NP
+                :Det (DP
+                    :Head (D :t "an" :l "a"))
+                :Head (Nom
+                    :Mod (AdjP
+                        :Head (Adj :t "eternall" :l "eternal"))
+                    :Head (N :t "Curse" :l "curse")))
+            :Head (VP
+                :Head (V :t "fall" :xpos "VB")
+                :Comp (PP
+                    :Head (P :t "on")
+                    :Obj (NP
+                        :Head (Nom
+                            :Head (N_pro :t "you" :p ":"))))))))

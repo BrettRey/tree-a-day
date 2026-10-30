@@ -1,0 +1,24 @@
+# sent_id = 2026-10-31-boyle
+# text = Boyle thou first i'th' charmed pot
+# sent = Boyle thou -- first i' th' charmed pot
+# source = Shakespeare, Macbeth 4.1, First Folio text; Project Gutenberg eBook #1129, line 2102, "Boyle thou first i'th' charmed pot" (the witch addressing the toad, lines 2098-2102)
+(Clause
+    :Prenucleus (x / V :t "Boyle" :l "boil" :xpos "VB")
+    :Head (Clause
+        :Subj (NP
+            :Head (Nom
+                :Head (N_pro :t "thou")))
+        :Head (VP
+            :Head (VP
+                :Head (x / GAP)
+                :Mod (AdvP
+                    :Head (Adv :t "first")))
+            :Mod (PP
+                :Head (P :t "i'" :l "in")
+                :Obj (NP
+                    :Det (DP
+                        :Head (D :t "th'" :l "the"))
+                    :Head (Nom
+                        :Mod (AdjP
+                            :Head (Adj :t "charmed"))
+                        :Head (N :t "pot")))))))

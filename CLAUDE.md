@@ -13,7 +13,7 @@ Brett's tree-a-day account on X, revived 2026-10-30: one CGEL-style syntax tree 
 ## Conventions
 
 - Rendering is CGELBank `tree2tex` output with italic, unhighlighted leaves aligned on the bottom row, and vertical long branches in fusion (`vendor/cgel/`, see `NOTICE.md`). Don't change the style without asking.
-- Captions follow `.claude/rules/writing-style.md`: no em-dashes, plain claims, one point per tree.
+- Captions aren't didactic. The default is "Syntax tree for “…”", with at most a short second line for context (a source credit, a question for a pair); the explanation belongs in `post.md` for Brett, not in the post (Brett, 2026-10-30). Writing-style rules still apply: no em-dashes.
 - One deliberate departure from gold: terminals keep the source's capitalization (*Something*, not gold's lowercased sentence-initial *something*), because the tree is an image of the quoted text.
 - Category and function stay distinct (Det is the function, D the category).
 - Model-drafted trees often differ from CGELBank gold. Assume the draft has errors.

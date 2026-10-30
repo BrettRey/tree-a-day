@@ -1,0 +1,24 @@
+# sent_id = 2026-10-31-whoever-dies
+# text = Whoever dies with honor dies well.
+# sent = Whoever -- dies with honor dies well
+# source = 𓄣 d🫀ug henning 𒊮 (@likethemagician) on X, as pasted by Brett 2026-10-30: {batlh Heghlu'chugh Heghlu'chu'} "Whoever dies with honor dies well." - the final line of the {paq'batlh}
+(Clause
+    :Subj (NP
+        :Head (Nom
+            :Mod (Clause_rel
+                :Head-Prenucleus (x / NP
+                    :Head (Nom
+                        :Head (N_pro :t "Whoever")))
+                :Head (Clause_rel
+                    :Subj (x / GAP)
+                    :Head (VP
+                        :Head (V :t "dies" :l "die" :xpos "VBZ")
+                        :Mod (PP
+                            :Head (P :t "with")
+                            :Obj (NP
+                                :Head (Nom
+                                    :Head (N :t "honor")))))))))
+    :Head (VP
+        :Head (V :t "dies" :l "die" :xpos "VBZ")
+        :Mod (AdvP
+            :Head (Adv :t "well" :p "."))))

@@ -1,0 +1,16 @@
+# sent_id = 2026-11-06-filthy-comfortable-ordinary
+# text = FIND YOUR FILTHY COMFORTABLE
+# sent = FIND YOUR FILTHY COMFORTABLE
+# source = Charles Schwab display ad, as captured in Mark Liberman, "'Filthy comfortable'", Language Log, 9 Oct 2026, https://languagelog.ldc.upenn.edu/nll/?p=74386 (ad image: https://languagelog.ldc.upenn.edu/myl/SchwabFilthyComfortable.jpg): "FIND YOUR / FILTHY COMFORTABLE"
+(Clause
+    :Head (VP
+        :Head (V :t "FIND" :l "find" :xpos "VB")
+        :Obj (NP
+            :Det (NP
+                :Head (Nom
+                    :Head (N_pro :t "YOUR" :l "you")))
+            :Head (Nom
+                :Head (AdjP
+                    :Mod (AdjP
+                        :Head (Adj :t "FILTHY" :l "filthy"))
+                    :Head (Adj :t "COMFORTABLE" :l "comfortable"))))))

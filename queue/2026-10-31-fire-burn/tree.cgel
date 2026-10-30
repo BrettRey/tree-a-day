@@ -1,0 +1,21 @@
+# sent_id = 2026-10-31-fire-burn
+# text = Fire burne, and Cauldron bubble
+# sent = Fire burne and Cauldron bubble
+# source = Shakespeare, Macbeth 4.1 (All, the witches' refrain), First Folio text; Project Gutenberg eBook #1129, line 2105, "Fire burne, and Cauldron bubble"
+(Coordination
+    :Coordinate (Clause
+        :Vocative (NP
+            :Head (Nom
+                :Head (N :t "Fire" :l "fire")))
+        :Head (Clause
+            :Head (VP
+                :Head (V :t "burne" :l "burn" :xpos "VB" :p ","))))
+    :Coordinate (Clause
+        :Marker (Coordinator :t "and")
+        :Head (Clause
+            :Vocative (NP
+                :Head (Nom
+                    :Head (N :t "Cauldron" :l "cauldron")))
+            :Head (Clause
+                :Head (VP
+                    :Head (V :t "bubble" :xpos "VB"))))))
