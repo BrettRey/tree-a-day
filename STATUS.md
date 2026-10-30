@@ -9,6 +9,8 @@
 - Week of 31 Oct to 6 Nov: **scheduled on X** (Daily Syntax Tree, 9:00 AM Eastern, with alt text) for 31 Oct (four Macbeth trees), 1, 2, 3 (quote of @Dictionarycom), 5 and 6 Nov; scheduled 2026-10-30, listed at x.com/compose/post/unsent/scheduled. *Whoever dies with honor* posted 2026-10-30. 3 Nov: *Everyone is maxxing something* (19th Amendment dropped). Captions in `queue/CAPTIONS.md`.
 - **On 4 Nov:** draft from a live "... is too early to call" election headline (Brett: "bring this back on the day"). Google Calendar reminder set for 8:00 AM Toronto time, with pop-ups at 7:30 and 8:00.
 
+- **Weekly:** Google Calendar reminder every Thursday at 9:30 AM Toronto time, starting 5 Nov 2026, to draft the next Saturday-to-Friday batch. Candidate for 11 Nov: John McCrae's "In Flanders Fields" (Remembrance Day).
+
 ## Open
 
 - Account: Tree_a_day (@DailySyntaxTree).

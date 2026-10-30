@@ -48,3 +48,5 @@
 2026-10-30 — Schwab (6 Nov): *filthy* is Adj (Brett), modifying the Adj *comfortable*; Claude withdrew its claim that CGEL disallows an AdjP modifier inside an AdjP (no source; gold has *pure white*). Friday stays the fusion pair (Brett: "fusion"); the *[your filthy] comfortable* parse is noted in post.md, not used.
 
 2026-10-30 — Schwab (6 Nov): the right parse is ordinary Head (Brett: "ordinary head, record it"): *your* [*filthy comfortable*], AdjP as ordinary head of the nominal, *filthy* an AdjP modifier. Consistent with Fusion of functions revisited (no evidence of form for the modifier function); CGEL's fused modifier-head type is described as taking only the definite article (p. 417), which *your* doesn't fit. The scheduled post (both trees) is unchanged.
+
+2026-10-30 — Weekly batch reminder: recurring Google Calendar event, Thursdays 9:30 AM Toronto from 5 Nov 2026 (Brett: "set up the Thursday reminder"). Drafting stays in a session Brett opens; no unattended run.
