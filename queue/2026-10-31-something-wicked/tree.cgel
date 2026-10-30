@@ -1,0 +1,18 @@
+# sent_id = 2026-10-31-something-wicked
+# text = Something wicked this way comes.
+# sent = Something wicked this way comes
+# source = Shakespeare, Macbeth 4.1 (Second Witch); Project Gutenberg eBook #1533, line "Something wicked this way comes."
+(Clause
+    :Subj (NP
+        :Head (Nom
+            :Det-Head (DP
+                :Head (D :t "Something"))
+            :Mod (AdjP
+                :Head (Adj :t "wicked"))))
+    :Head (VP
+        :Comp (NP
+            :Det (DP
+                :Head (D :t "this"))
+            :Head (Nom
+                :Head (N :t "way")))
+        :Head (V :t "comes" :l "come" :xpos "VBZ" :p ".")))

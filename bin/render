@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Validate a .cgel tree and render it to PNG beside the source.
+# Usage: bin/render queue/<post>/tree.cgel
+set -euo pipefail
+
+here="$(cd "$(dirname "$0")/.." && pwd)"
+py="$here/.venv/bin/python"
+src="$(cd "$(dirname "$1")" && pwd)/$(basename "$1")"
+dir="$(dirname "$src")"
+stem="$(basename "$src" .cgel)"
+
+echo "== validate"
+(cd "$here/vendor/cgel" && "$py" validate_trees.py "$src") || true
+
+echo "== render"
+(cd "$here/vendor/cgel" && "$py" tree2tex.py "$src") > "$dir/$stem.tex"
+(cd "$dir" && pdflatex -interaction=nonstopmode -halt-on-error "$stem.tex" > "$stem.build.log" 2>&1) \
+  || { grep -m5 '^!' "$dir/$stem.build.log"; exit 1; }
+pdftocairo -png -r 300 -singlefile "$dir/$stem.pdf" "$dir/$stem"
+rm -f "$dir/$stem.aux" "$dir/$stem.log"
+echo "wrote $dir/$stem.png"

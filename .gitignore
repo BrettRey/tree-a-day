@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.build.log
+queue/**/*.pdf
+queue/**/*.tex
+.~lock.*#

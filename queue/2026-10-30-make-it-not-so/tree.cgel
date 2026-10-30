@@ -1,0 +1,14 @@
+# sent_id = 2026-10-30-make-it-not-so
+# text = Make it not so
+# sent = Make it not so
+# source = Jennifer Lee Rossman (@JenLRossman) on X, 29 Oct 2026, 4:28 PM, "Make it not so" plus a crying emoji (post pasted by Brett); also the title of Daniel W. Drezner's tribute, "Make It Not So", Drezner's World, 30 Oct 2026
+(Clause
+    :Head (VP
+        :Head (V :t "Make" :l "make" :xpos "VB")
+        :Obj (NP
+            :Head (Nom
+                :Head (N_pro :t "it")))
+        :PredComp (PP
+            :Mod (AdvP
+                :Head (Adv :t "not"))
+            :Head (P :t "so"))))

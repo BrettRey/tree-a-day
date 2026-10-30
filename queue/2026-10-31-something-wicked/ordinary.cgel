@@ -1,0 +1,18 @@
+# sent_id = 2026-10-31-something-wicked-ordinary-head
+# text = Something wicked this way comes.
+# sent = Something wicked this way comes
+# source = Shakespeare, Macbeth 4.1, as tree.cgel; ordinary Head analysis from Reynolds, "Fusion of functions revisited" (lingbuzz/010465), Fig. 1c and section 3 ("the compound's DP heads the nominal and the restrictor follows it in the nominal"); restrictor labelled Mod as in gold "something reliable and good-looking" (ewt-test_iaa50.cgel)
+(Clause
+    :Subj (NP
+        :Head (Nom
+            :Head (DP
+                :Head (D :t "Something"))
+            :Mod (AdjP
+                :Head (Adj :t "wicked"))))
+    :Head (VP
+        :Comp (NP
+            :Det (DP
+                :Head (D :t "this"))
+            :Head (Nom
+                :Head (N :t "way")))
+        :Head (V :t "comes" :l "come" :xpos "VBZ" :p ".")))
